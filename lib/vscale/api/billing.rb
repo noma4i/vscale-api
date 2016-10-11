@@ -4,6 +4,10 @@ module Vscale
       get('billing/payments/')
     end
 
+    def balance
+      get('billing/balance/')
+    end     
+    
     def consumption(params)
       get('billing/consumption', params)
     end

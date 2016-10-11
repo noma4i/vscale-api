@@ -5,7 +5,7 @@ module Vscale
     end
 
     def balance
-      get('billing/balance/')
+      get('billing/balance', params)
     end     
     
     def consumption(params)
